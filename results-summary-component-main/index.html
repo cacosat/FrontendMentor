@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main>
+    <!-- main container -->
+    <div class="card">
+      <!-- card container -->
+      <section class="card__results">
+        <!-- result container -->
+        <h3>Your Result</h3>
+        <div class="results__circle">
+          <!-- total points circle -->
+          <h1>76</h1>
+          <p>of 100</p>
+        </div>
+        <h3>Great</h3>
+        <p>You scored higher than 65% of the people who have taken these tests.</p> 
+      </section>
+      <section class="card__summary">
+        <!-- summary container -->
+        <h3>Summary</h3>
+        <div class="summary__score__container">
+          <div class="summary__score score__reaction">
+            <!-- summary container => reaction results -->
+            <div class="score__icon-name">
+              <img src="assets/images/icon-reaction.svg" alt="Reaction icon">
+              <p>Reaction</p>
+            </div>
+            <p>80 / 100</p>
+          </div>
+          <div class="summary__score score__memory">
+            <!-- summary container => memory results -->
+            <div class="score__icon-name">
+              <img src="assets/images/icon-memory.svg" alt="Memory icon">
+              <p>Memory</p>
+            </div>
+            <p>92 / 100</p>
+          </div>
+          <div class="summary__score score__verbal">
+            <!-- summary container => verbal results -->
+            <div class="score__icon-name">
+              <img src="assets/images/icon-verbal.svg" alt="Verbal icon">
+              <p>Verbal</p>
+            </div>
+            <p>61 / 100</p>
+          </div>
+          <div class="summary__score score__visual">
+            <!-- summary container => visual results -->
+            <div class="score__icon-name">
+              <img src="assets/images/icon-visual.svg" alt="Visual icon">
+              <p>Visual</p>
+            </div>
+            <p>72 / 100</p>
+          </div>
+        </div>
+        <button class="continue-btn">Continue</button>
+      </section>
+    </div>
+  </main>
+</body>
+</html>

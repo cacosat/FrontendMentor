@@ -1,0 +1,41 @@
+:root {
+    --white-color: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    background-color: var(--light-gray);
+    display: flex;
+    justify-content: center; /* horizontar */
+    justify-items: center;
+    padding: 200px 0px;
+}
+
+.main {
+    background-color: var(--white-color);
+    display: flex;
+    flex-direction: column;
+    width: 35ch;
+    border-radius: 25px;
+    padding:15px;
+}
+
+.main__img {
+    height: 367.36px;
+    width: auto;
+    background: url("images/image-qr-code.png") center center no-repeat;
+    background-size: contain; /* Contains scales the image so it fits in the space */
+    border-radius: 25px;
+}
+
+.main__text {
+    padding: 20px;
+    text-align: center;
+}
+
+.main__text h1 {
+    font-size: 1.5em;
+}
